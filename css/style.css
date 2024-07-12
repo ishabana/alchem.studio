@@ -231,10 +231,6 @@ a {
   a:hover {
     text-decoration: none; }
 
-h1, h2, h3, h4, h5,
-.h1, .h2, .h3, .h4, .h5 {
-  color: #000;
-  font-family: "Poppins", sans-serif; }
 
 .border-2 {
   border-width: 2px; }
@@ -796,17 +792,7 @@ h1, h2, h3, h4, h5,
   .site-section-cover.img-bg-section {
     background-size: cover;
     background-repeat: no-repeat; }
-  .site-section-cover h1 {
-    font-size: 4rem;
-    line-height: 1.3;
-    font-family: "Poppins", sans-serif;
-    font-weight: 900 !important; }
-    @media (max-width: 991.98px) {
-      .site-section-cover h1 {
-        font-size: 2rem; } }
-  .site-section-cover p {
-    font-size: 18px;
-    color: rgba(255, 255, 255, 0.6); }
+  
 
 .btn-video_38929 {
   display: inline-block;

@@ -30,8 +30,32 @@
 <body>
   
     <div class="container-fluid">
-     
-    
+      
+      <header class="site-navbar site-navbar-target" role="banner">
+      <div class="col-9 text-right">
+        <div class="topnav" id="myTopnav">
+          <a href="/about.html">about</a>
+          <a href="/solutions.html">solutions</a>
+          <a href="/portfolio.html">works</a>
+          <a href="/contact.html">Contact</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="icon-menu"></i>
+          </a>
+        </div>
+
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+          </script>
+
+    </div>
+
     <div class="row">
       <div class="col-sm-4">
        <span class="header"><h1>alchem<br>studio</h1></span>
