@@ -20,7 +20,7 @@ html {
 }
 
 .header {
-margin-top: 28%;
+margin-top: 10%;
 margin-left: 50%;
 padding: 0;
 position: relative;
@@ -73,15 +73,17 @@ display:inline-block;
 .topnav a {
   float: right;
   display: block;
-  color: #000000;
+  color: #8b8b8b;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1.4rem;
+  font-family: 'Space Grotesk';
+  font-weight: 500;
 }
 
 .topnav a:hover {
-  color: rgb(77, 77, 77);
+  color: rgb(0, 0, 0);
 }
 
 .topnav a.active {
@@ -96,6 +98,7 @@ display:inline-block;
   .topnav a {
     display: none;
   }
+
   .topnav a.icon {
     float: right;
     display: block;
